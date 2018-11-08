@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+
+.nav {
+  background-color: rgba(71, 117, 110, 0.8);
+  height: 4rem; }
+  .nav__items {
+    display: flex;
+    list-style: none;
+    margin: 0; }
+  .nav__item {
+    padding: 2rem 1rem 0; }
+  .nav__link {
+    text-decoration: none; }
+
+/*# sourceMappingURL=app.css.map */

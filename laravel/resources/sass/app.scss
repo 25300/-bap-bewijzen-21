@@ -1,0 +1,20 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Base
+@import 'base/general.scss';
+
+// Components
+@import 'components/nav';
+
+// Mixins
+@import 'mixins/colors.scss';
+
+// Pages
+@import 'pages/homepage.scss';
+
+
