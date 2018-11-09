@@ -52,9 +52,8 @@ Route::get('/contact', function () {
     ->name('contact')
 ;
 
-Route::get('/contact',	'FormController@showForm')
-    ->name('contact.form')
-;
+//Route::get('/contact',	'FormController@showForm')
+//    ->name('contact.form');
 
 
 

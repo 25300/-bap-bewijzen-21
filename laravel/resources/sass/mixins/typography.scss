@@ -1,0 +1,10 @@
+@import "colors";
+
+$font: Avenir, sans-serif;
+
+
+@mixin titles {
+    color: $black-light;
+    font-size: 2rem;
+    text-align: center;
+}

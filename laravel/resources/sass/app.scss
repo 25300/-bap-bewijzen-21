@@ -10,11 +10,19 @@
 
 // Components
 @import 'components/nav';
+@import 'components/footer';
+@import 'components/table';
 
 // Mixins
 @import 'mixins/colors.scss';
+@import 'mixins/typography.scss';
 
 // Pages
 @import 'pages/homepage.scss';
+@import 'pages/livepage';
+@import 'pages/photospage';
+
+// Vendor
+@import 'vendor/reset.scss';
 
 

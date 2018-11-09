@@ -1,0 +1,12 @@
+.footer {
+    background-color: $red;
+    min-height: 3.7rem;
+    color: #ffffff;
+    bottom: 0;
+
+    &__description {
+        text-align: center;
+        padding-top: .4rem;
+    }
+
+}

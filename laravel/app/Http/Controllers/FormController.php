@@ -8,6 +8,6 @@ class FormController extends Controller
 {
     public function showForm()
     {
-        return view('forms.registration');
+        return view('forms.contact');
     }
 }

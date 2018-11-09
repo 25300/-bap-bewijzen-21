@@ -1,20 +1,52 @@
 @import "../mixins/colors.scss";
 
 .nav {
-    background-color: $green-light;
-    height: 4rem;
+    background-color: $red;
+    height: 5rem;
 
     &__items {
-        display: flex;
+        display: grid;
+        grid-row-gap: 5px;
+        grid-template-columns: 6rem 6rem 6rem;
+        justify-content: center;
+        justify-items: center;
         list-style: none;
         margin: 0;
+        padding: .7rem 0 0 0;
     }
 
     &__item {
-        padding: 2rem 1rem 0;
+
     }
 
     &__link {
+        color: #fff;
         text-decoration: none;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__logo {
+        height: 1rem;
+        top: 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        &__items {
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-column-gap: 1rem;
+            padding: 1.7rem 0 0 0;
+        }
+
+        &__item {
+            font-size: 1.5rem;
+        }
+
+        &__logo {
+            height: 2rem;
+        }
     }
 }

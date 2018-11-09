@@ -16,6 +16,9 @@
             <nav class="nav">
                 <ul class="nav__items">
                     <li class="nav__item">
+                        <a class="nav__link" href="{{ route('home') }}"><img class="nav__logo" src="{{ asset('css/img/auroralogo.png') }}" alt=""></a>
+                    </li>
+                    <li class="nav__item">
                         <a class="nav__link" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav__item">
@@ -27,9 +30,9 @@
                     <li class="nav__item">
                         <a class="nav__link" href="{{ route('news') }}">News</a>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="{{ route('contact') }}">Contact</a>
-                    </li>
+<!--                    <li class="nav__item">-->
+<!--                        <a class="nav__link" href="{{ route('contact') }}">Contact</a>-->
+<!--                    </li>-->
                 </ul>
             </nav>
             @yield('page_title')
@@ -38,9 +41,11 @@
             @section('content')
             @show
         </main>
-        <footer>
-            <p> &copy; Alisha van Caspel 2018</p>
-            <p>Laravel project, Mediacollege Amsterdam</p>
+        <footer class="footer">
+            <div class="footer__description">
+                <p class="footer__copyright"> &copy; Alisha van Caspel 2018</p>
+                <p class="footer__project">Laravel project, Mediacollege Amsterdam</p>
+            </div>
         </footer>
     </div>
     <!-- Optional JavaScript -->
