@@ -52,6 +52,8 @@ Route::get('/contact', function () {
     ->name('contact')
 ;
 
+Route::get('test-live', 'LiveController@test');
+
 //Route::get('/contact',	'FormController@showForm')
 //    ->name('contact.form');
 
