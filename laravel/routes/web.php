@@ -34,6 +34,10 @@ Route::get('/photos', function () {
     ->name('photos')
 ;
 
+Route::get('/photo-gallery','PhotoGalleryController@listPhotos')->name('gallery.index');
+Route::get('/photo-gallery/add-photo','PhotoGalleryController@showPhotoForm')->name('gallery.add_photo');
+Route::post('/photo-gallery/add-photo','PhotoGalleryController@savePhotoForm')->name('gallery.save_photo');
+
 Route::get('/news', function () {
     return view('newspage');
 })

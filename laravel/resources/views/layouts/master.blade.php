@@ -25,7 +25,7 @@
                         <a class="nav__link" href="{{ route('live') }}">Live</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="{{ route('photos') }}">Photos</a>
+                        <a class="nav__link" href="{{ route('gallery.index') }}">Photos</a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__link" href="{{ route('news') }}">News</a>
