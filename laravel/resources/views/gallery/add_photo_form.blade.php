@@ -13,14 +13,13 @@
         @endif
     </div>
     <div class="from-group">
-        <label for="description">Omschrijvinng</label>
-        <textarea name="description" placeholder="Vul hier de omschrijving in" class="form-control"> {{old('description')}} </textarea>
+        <label for="description">Description</label>
+        <textarea name="description" placeholder="add a description" class="form-control"> {{old('description')}} </textarea>
         @if($errors->has('description'))
         <p class="text-danger"> {{$errors->first('description')}}</p>
         @endif
     </div>
     <div class="from-group">
-        <label for="description">Omschrijving</label>
         <br>
         <input type="file" name="photo"/>
         <br>
@@ -28,6 +27,6 @@
         <p class="text-danger"> {{$errors->first('description')}} </p>
         @endif
     </div>
-    <button type="submit" class="btn btn-primary">Opsturen</button>
+    <button type="submit" class="btn btn-primary">Send</button>
 </form>
 @endsection
